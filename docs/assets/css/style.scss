@@ -1,0 +1,64 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+$content-width:    1024px;
+$on-laptop:        1024px;
+
+$base-color: rgb(29, 161, 242);
+
+@import "minima";
+
+a {
+  color: darken($base-color, 10%);
+}
+
+a:visited {
+  color: darken($base-color, 20%);
+}
+
+header::before {
+  content: url('../images/twitterbot.png');
+  display: block;
+  float: left;
+  margin-left: 10px;
+}
+
+.page-content h1 {
+  color: $base-color;
+}
+
+.page-content h2 {
+  color: lighten($base-color, 10%);
+}
+
+.page-content h3 {
+  color: lighten($base-color, 20%);
+}
+
+.page-content h4 {
+  color: lighten($base-color, 30%);
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 16px;
+}
+
+nav ul li a {
+  color: #888;
+  text-decoration: none;
+}
+
+nav ul li a:visited, nav li a:link {
+  color: #888;
+  text-decoration: none;
+}
+
+nav ul li a.page {
+  color: $base-color;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+}
