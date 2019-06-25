@@ -1,4 +1,5 @@
-# final - Final Project for CSCI E-100a
+# Twitter Bot Detection
+## Final Project for CSCI-109A
 **Fall 2018**
 
 ## Members
